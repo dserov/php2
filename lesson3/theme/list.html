@@ -6,8 +6,8 @@
 </head>
 <body>
 {% for image in images %}
-    <a href="?t={{image}}">
-        <img src="{{image}}" width="{{img_width}}" height="{{img_height}}">
+    <a href="?t={{image.path}}">
+        <img src="{{image.thumb}}" width="{{img_width}}" height="{{img_height}}">
     </a>
 {% endfor%}
 </body>

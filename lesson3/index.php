@@ -16,10 +16,14 @@ define('THUMBNAIL_HEIGHT', 128);
 
 include '../vendor/autoload.php';
 
+function my_class_loader ($class) {
+    include 'classes' . DIRECTORY_SEPARATOR . $class . '.class.php';
+};
+spl_autoload_register('my_class_loader');
+
 try {
     $loader = new \Twig\Loader\FilesystemLoader('theme');
     $twig = new \Twig\Environment($loader);
-
 
     if (@$_GET['t']) {
         echo $twig->render('detail.html', [
@@ -28,16 +32,16 @@ try {
         die();
     }
 
-    $photos = [];
-    $files = scandir('foto' . DS . THUMBNAIL_DIR);
-    foreach ($files as $file) {
-        if (substr($file, 0, 1) === '.') {
-            continue;
-        }
-        $photos[] = 'foto' . DS . THUMBNAIL_DIR . $file;
+    $thumbnails = [];
+    $rows = DB::getInstance()->QueryMany("SELECT * FROM pictures ORDER BY product_id, id desc");
+    foreach ($rows as $row) {
+        $thumbnails[] = [
+            'path' => str_replace(DIRECTORY_SEPARATOR, '/', $row['path']) . $row['name'],
+            'thumb' => str_replace(DIRECTORY_SEPARATOR, '/', $row['path'] . THUMBNAIL_DIR) . $row['name']];
     }
+
     echo $twig->render('list.html', [
-        'images' => $photos,
+        'images' => $thumbnails,
         'img_width' => THUMBNAIL_WIDTH,
         'img_height' => THUMBNAIL_HEIGHT,
         ]);
