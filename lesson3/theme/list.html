@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% for image in images %}
+    <a href="?t={{image}}">
+        <img src="{{image}}" width="{{img_width}}" height="{{img_height}}">
+    </a>
+{% endfor%}
+</body>
+</html>
