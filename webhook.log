@@ -1,0 +1,924 @@
+
+27.02.2021 13:34:29
+POST
+Array
+(
+)
+Array
+(
+)
+
+Array
+(
+    [appointment] => Array
+        (
+            [id] => 26
+            [bookings] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 35
+                            [customerId] => 24
+                            [customer] => Array
+                                (
+                                    [id] => 24
+                                    [firstName] => Виктория
+                                    [lastName] => admin
+                                    [birthday] => 
+                                    [email] => imaround70@gmail.com
+                                    [phone] => 
+                                    [type] => customer
+                                    [status] => visible
+                                    [note] => 
+                                    [zoomUserId] => 
+                                    [countryPhoneIso] => 
+                                    [externalId] => 1
+                                    [pictureFullPath] => 
+                                    [pictureThumbPath] => 
+                                    [gender] => 
+                                )
+
+                            [status] => approved
+                            [extras] => Array
+                                (
+                                )
+
+                            [couponId] => 
+                            [price] => 450
+                            [coupon] => 
+                            [customFields] => 
+                            [info] => {"firstName":"\u0412\u0438\u043a\u0442\u043e\u0440\u0438\u044f","lastName":"admin","phone":"+380111111111"}
+                            [appointmentId] => 26
+                            [persons] => 1
+                            [token] => e9b43da5b1
+                            [payments] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [id] => 35
+                                            [customerBookingId] => 35
+                                            [packageCustomerId] => 
+                                            [amount] => 0
+                                            [gateway] => onSite
+                                            [gatewayTitle] => 
+                                            [dateTime] => 2021-03-01 15:00:00
+                                            [status] => pending
+                                            [data] => 
+                                        )
+
+                                )
+
+                            [utcOffset] => 
+                            [aggregatedPrice] => 1
+                            [isChangedStatus] => 1
+                            [packageCustomerService] => 
+                            [cancelUrl] => https://xn--b1afah7bd.site/3/wp-admin/admin-ajax.php?action=wpamelia_api&call=/bookings/cancel/35&token=e9b43da5b1&type=appointment
+                            [customerPanelUrl] => https://xn--b1afah7bd.site/3/%d0%ba%d0%b0%d0%b1%d0%b8%d0%bd%d0%b5%d1%82-%d0%bf%d0%be%d0%bb%d1%8c%d0%b7%d0%be%d0%b2%d0%b0%d1%82%d0%b5%d0%bb%d1%8f?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wveG4tLWIxYWZhaDdiZC5zaXRlXC8zIiwiaWF0IjoxNjE0NDIyMDY5LCJlbWFpbCI6ImltYXJvdW5kNzBAZ21haWwuY29tIiwid3AiOjQsImV4cCI6MTYxNzAxNDA2OX0.pKbH8MSbv-n9K5LQgniB0ExiRlfSjzIWaUB3bWkofI0
+                        )
+
+                )
+
+            [notifyParticipants] => 1
+            [internalNotes] => 
+            [status] => approved
+            [serviceId] => 28
+            [parentId] => 
+            [providerId] => 17
+            [locationId] => 7
+            [provider] => Array
+                (
+                    [id] => 17
+                    [firstName] => Виктория
+                    [lastName] => Головчак
+                    [birthday] => 
+                    [email] => golovchak.vika@gmail.com
+                    [phone] => +380979782421
+                    [type] => provider
+                    [status] => visible
+                    [note] => 
+                    [zoomUserId] => 
+                    [countryPhoneIso] => ua
+                    [externalId] => 
+                    [pictureFullPath] => https://xn--b1afah7bd.site/3/wp-content/uploads/2021/02/881260E1-522F-4471-999F-E6DFADE2CC15.jpeg
+                    [pictureThumbPath] => https://xn--b1afah7bd.site/3/wp-content/uploads/2021/02/881260E1-522F-4471-999F-E6DFADE2CC15-150x150.jpeg
+                    [weekDayList] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 62
+                                    [dayIndex] => 1
+                                    [startTime] => 09:00:00
+                                    [endTime] => 19:00:00
+                                    [timeOutList] => Array
+                                        (
+                                        )
+
+                                    [periodList] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [id] => 62
+                                                    [startTime] => 09:00:00
+                                                    [endTime] => 19:00:00
+                                                    [locationId] => 
+                                                    [periodServiceList] => Array
+                                                        (
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                            [1] => Array
+                                (
+                                    [id] => 63
+                                    [dayIndex] => 2
+                                    [startTime] => 09:00:00
+                                    [endTime] => 19:00:00
+                                    [timeOutList] => Array
+                                        (
+                                        )
+
+                                    [periodList] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [id] => 63
+                                                    [startTime] => 09:00:00
+                                                    [endTime] => 19:00:00
+                                                    [locationId] => 
+                                                    [periodServiceList] => Array
+                                                        (
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                            [2] => Array
+                                (
+                                    [id] => 64
+                                    [dayIndex] => 3
+                                    [startTime] => 09:00:00
+                                    [endTime] => 19:00:00
+                                    [timeOutList] => Array
+                                        (
+                                        )
+
+                                    [periodList] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [id] => 64
+                                                    [startTime] => 09:00:00
+                                                    [endTime] => 19:00:00
+                                                    [locationId] => 
+                                                    [periodServiceList] => Array
+                                                        (
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                            [3] => Array
+                                (
+                                    [id] => 65
+                                    [dayIndex] => 4
+                                    [startTime] => 09:00:00
+                                    [endTime] => 19:00:00
+                                    [timeOutList] => Array
+                                        (
+                                        )
+
+                                    [periodList] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [id] => 65
+                                                    [startTime] => 09:00:00
+                                                    [endTime] => 19:00:00
+                                                    [locationId] => 
+                                                    [periodServiceList] => Array
+                                                        (
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                            [4] => Array
+                                (
+                                    [id] => 66
+                                    [dayIndex] => 5
+                                    [startTime] => 09:00:00
+                                    [endTime] => 19:00:00
+                                    [timeOutList] => Array
+                                        (
+                                        )
+
+                                    [periodList] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [id] => 66
+                                                    [startTime] => 09:00:00
+                                                    [endTime] => 19:00:00
+                                                    [locationId] => 
+                                                    [periodServiceList] => Array
+                                                        (
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                    [serviceList] => Array
+                        (
+                        )
+
+                    [dayOffList] => Array
+                        (
+                        )
+
+                    [specialDayList] => Array
+                        (
+                        )
+
+                    [locationId] => 7
+                    [googleCalendar] => 
+                    [outlookCalendar] => 
+                )
+
+            [service] => Array
+                (
+                    [id] => 28
+                    [name] => Педикюр 
+                    [description] => 
+                    [color] => #1788FB
+                    [price] => 450
+                    [pictureFullPath] => https://xn--b1afah7bd.site/3/wp-content/uploads/2021/01/D28F38E6-3A44-4FA7-9E6A-1E5E9ECDA503.jpeg
+                    [pictureThumbPath] => https://xn--b1afah7bd.site/3/wp-content/uploads/2021/01/D28F38E6-3A44-4FA7-9E6A-1E5E9ECDA503-150x150.jpeg
+                    [extras] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 6
+                                    [name] => Гель лак 
+                                    [description] => 
+                                    [price] => 250
+                                    [maxQuantity] => 1
+                                    [position] => 1
+                                    [duration] => 1800
+                                    [serviceId] => 
+                                    [aggregatedPrice] => 
+                                )
+
+                        )
+
+                    [coupons] => Array
+                        (
+                        )
+
+                    [position] => 
+                    [settings] => {"payments":{"onSite":true,"payPal":{"enabled":false},"stripe":{"enabled":true}},"zoom":{"enabled":true},"general":{"minimumTimeRequirementPriorToCanceling":null,"redirectUrlAfterAppointment":null,"defaultAppointmentStatus":null,"numberOfDaysAvailableForBooking":0,"minimumTimeRequirementPriorToBooking":null}}
+                    [minCapacity] => 1
+                    [maxCapacity] => 1
+                    [duration] => 5400
+                    [timeBefore] => 
+                    [timeAfter] => 
+                    [bringingAnyone] => 1
+                    [show] => 
+                    [aggregatedPrice] => 1
+                    [status] => visible
+                    [categoryId] => 3
+                    [category] => 
+                    [priority] => Array
+                        (
+                        )
+
+                    [gallery] => Array
+                        (
+                        )
+
+                    [recurringCycle] => 
+                    [recurringSub] => 
+                    [recurringPayment] => 0
+                )
+
+            [location] => Array
+                (
+                    [id] => 7
+                    [status] => visible
+                    [name] => Фонтанж
+                    [description] => 
+                    [address] => Пишоновская улица, 20/1, Одесса, Одесская область, Украина
+                    [phone] => 
+                    [latitude] => 46.486026
+                    [longitude] => 30.714836
+                    [pictureFullPath] => https://xn--b1afah7bd.site/3/wp-content/uploads/2021/02/881260E1-522F-4471-999F-E6DFADE2CC15.jpeg
+                    [pictureThumbPath] => https://xn--b1afah7bd.site/3/wp-content/uploads/2021/02/881260E1-522F-4471-999F-E6DFADE2CC15-150x150.jpeg
+                    [pin] => 
+                )
+
+            [googleCalendarEventId] => 
+            [outlookCalendarEventId] => 
+            [zoomMeeting] => 
+            [bookingStart] => 2021-03-01 15:00:00
+            [bookingEnd] => 2021-03-01 16:30:00
+            [type] => appointment
+            [isRescheduled] => 
+        )
+
+    [bookings] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 35
+                    [customerId] => 24
+                    [customer] => Array
+                        (
+                            [id] => 24
+                            [firstName] => Виктория
+                            [lastName] => admin
+                            [birthday] => 
+                            [email] => imaround70@gmail.com
+                            [phone] => 
+                            [type] => customer
+                            [status] => visible
+                            [note] => 
+                            [zoomUserId] => 
+                            [countryPhoneIso] => 
+                            [externalId] => 1
+                            [pictureFullPath] => 
+                            [pictureThumbPath] => 
+                            [gender] => 
+                        )
+
+                    [status] => approved
+                    [extras] => Array
+                        (
+                        )
+
+                    [couponId] => 
+                    [price] => 450
+                    [coupon] => 
+                    [customFields] => 
+                    [info] => {"firstName":"\u0412\u0438\u043a\u0442\u043e\u0440\u0438\u044f","lastName":"admin","phone":"+380111111111"}
+                    [appointmentId] => 26
+                    [persons] => 1
+                    [token] => e9b43da5b1
+                    [payments] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 35
+                                    [customerBookingId] => 35
+                                    [packageCustomerId] => 
+                                    [amount] => 0
+                                    [gateway] => onSite
+                                    [gatewayTitle] => 
+                                    [dateTime] => 2021-03-01 15:00:00
+                                    [status] => pending
+                                    [data] => 
+                                )
+
+                        )
+
+                    [utcOffset] => 
+                    [aggregatedPrice] => 1
+                    [isChangedStatus] => 1
+                    [packageCustomerService] => 
+                    [cancelUrl] => https://xn--b1afah7bd.site/3/wp-admin/admin-ajax.php?action=wpamelia_api&call=/bookings/cancel/35&token=e9b43da5b1&type=appointment
+                    [customerPanelUrl] => https://xn--b1afah7bd.site/3/%d0%ba%d0%b0%d0%b1%d0%b8%d0%bd%d0%b5%d1%82-%d0%bf%d0%be%d0%bb%d1%8c%d0%b7%d0%be%d0%b2%d0%b0%d1%82%d0%b5%d0%bb%d1%8f?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wveG4tLWIxYWZhaDdiZC5zaXRlXC8zIiwiaWF0IjoxNjE0NDIyMDY5LCJlbWFpbCI6ImltYXJvdW5kNzBAZ21haWwuY29tIiwid3AiOjQsImV4cCI6MTYxNzAxNDA2OX0.pKbH8MSbv-n9K5LQgniB0ExiRlfSjzIWaUB3bWkofI0
+                )
+
+        )
+
+)
+
+
+
+27.02.2021 13:45:40
+POST
+Array
+(
+)
+Array
+(
+)
+
+Array
+(
+    [appointment] => Array
+        (
+            [id] => 22
+            [bookings] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 31
+                            [customerId] => 24
+                            [customer] => Array
+                                (
+                                    [id] => 24
+                                    [firstName] => Виктория
+                                    [lastName] => admin
+                                    [birthday] => 
+                                    [email] => imaround70@gmail.com
+                                    [phone] => 
+                                    [type] => customer
+                                    [status] => visible
+                                    [note] => 
+                                    [zoomUserId] => 
+                                    [countryPhoneIso] => 
+                                    [externalId] => 1
+                                    [pictureFullPath] => 
+                                    [pictureThumbPath] => 
+                                    [gender] => 
+                                )
+
+                            [status] => canceled
+                            [extras] => Array
+                                (
+                                )
+
+                            [couponId] => 
+                            [price] => 300
+                            [coupon] => 
+                            [customFields] => 
+                            [info] => {"firstName":"\u0412\u0438\u043a\u0442\u043e\u0440\u0438\u044f","lastName":"admin","phone":"+380509836528"}
+                            [appointmentId] => 22
+                            [persons] => 1
+                            [token] => 13277e14c9
+                            [payments] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [id] => 31
+                                            [customerBookingId] => 31
+                                            [packageCustomerId] => 
+                                            [amount] => 0
+                                            [gateway] => onSite
+                                            [gatewayTitle] => 
+                                            [dateTime] => 2021-03-01 09:00:00
+                                            [status] => pending
+                                            [data] => 
+                                        )
+
+                                )
+
+                            [utcOffset] => 
+                            [aggregatedPrice] => 1
+                            [isChangedStatus] => 
+                            [packageCustomerService] => 
+                            [cancelUrl] => https://xn--b1afah7bd.site/3/wp-admin/admin-ajax.php?action=wpamelia_api&call=/bookings/cancel/31&token=13277e14c9&type=appointment
+                            [customerPanelUrl] => https://xn--b1afah7bd.site/3/%d0%ba%d0%b0%d0%b1%d0%b8%d0%bd%d0%b5%d1%82-%d0%bf%d0%be%d0%bb%d1%8c%d0%b7%d0%be%d0%b2%d0%b0%d1%82%d0%b5%d0%bb%d1%8f?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wveG4tLWIxYWZhaDdiZC5zaXRlXC8zIiwiaWF0IjoxNjE0NDIyNzQwLCJlbWFpbCI6ImltYXJvdW5kNzBAZ21haWwuY29tIiwid3AiOjQsImV4cCI6MTYxNzAxNDc0MH0.KVYLUk5LOU-nq22VheGBIcQKictD9xon4CFP5dO0EIk
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 36
+                            [customerId] => 24
+                            [customer] => Array
+                                (
+                                    [id] => 24
+                                    [firstName] => Виктория
+                                    [lastName] => admin
+                                    [birthday] => 
+                                    [email] => imaround70@gmail.com
+                                    [phone] => 
+                                    [type] => customer
+                                    [status] => visible
+                                    [note] => 
+                                    [zoomUserId] => 
+                                    [countryPhoneIso] => 
+                                    [externalId] => 1
+                                    [pictureFullPath] => 
+                                    [pictureThumbPath] => 
+                                    [gender] => 
+                                )
+
+                            [status] => approved
+                            [extras] => Array
+                                (
+                                )
+
+                            [couponId] => 
+                            [price] => 300
+                            [coupon] => 
+                            [customFields] => 
+                            [info] => {"firstName":"\u0412\u0438\u043a\u0442\u043e\u0440\u0438\u044f","lastName":"admin","phone":"+38022222222222222222222222222222"}
+                            [appointmentId] => 22
+                            [persons] => 1
+                            [token] => 31aaee18dd
+                            [payments] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [id] => 36
+                                            [customerBookingId] => 36
+                                            [packageCustomerId] => 
+                                            [amount] => 0
+                                            [gateway] => onSite
+                                            [gatewayTitle] => 
+                                            [dateTime] => 2021-03-01 09:00:00
+                                            [status] => pending
+                                            [data] => 
+                                        )
+
+                                )
+
+                            [utcOffset] => 
+                            [aggregatedPrice] => 1
+                            [isChangedStatus] => 1
+                            [packageCustomerService] => 
+                            [cancelUrl] => https://xn--b1afah7bd.site/3/wp-admin/admin-ajax.php?action=wpamelia_api&call=/bookings/cancel/36&token=31aaee18dd&type=appointment
+                            [customerPanelUrl] => https://xn--b1afah7bd.site/3/%d0%ba%d0%b0%d0%b1%d0%b8%d0%bd%d0%b5%d1%82-%d0%bf%d0%be%d0%bb%d1%8c%d0%b7%d0%be%d0%b2%d0%b0%d1%82%d0%b5%d0%bb%d1%8f?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wveG4tLWIxYWZhaDdiZC5zaXRlXC8zIiwiaWF0IjoxNjE0NDIyNzQwLCJlbWFpbCI6ImltYXJvdW5kNzBAZ21haWwuY29tIiwid3AiOjQsImV4cCI6MTYxNzAxNDc0MH0.KVYLUk5LOU-nq22VheGBIcQKictD9xon4CFP5dO0EIk
+                        )
+
+                )
+
+            [notifyParticipants] => 1
+            [internalNotes] => 
+            [status] => approved
+            [serviceId] => 9
+            [parentId] => 
+            [providerId] => 17
+            [locationId] => 7
+            [provider] => Array
+                (
+                    [id] => 17
+                    [firstName] => Виктория
+                    [lastName] => Головчак
+                    [birthday] => 
+                    [email] => golovchak.vika@gmail.com
+                    [phone] => +380979782421
+                    [type] => provider
+                    [status] => visible
+                    [note] => 
+                    [zoomUserId] => 
+                    [countryPhoneIso] => ua
+                    [externalId] => 
+                    [pictureFullPath] => https://xn--b1afah7bd.site/3/wp-content/uploads/2021/02/881260E1-522F-4471-999F-E6DFADE2CC15.jpeg
+                    [pictureThumbPath] => https://xn--b1afah7bd.site/3/wp-content/uploads/2021/02/881260E1-522F-4471-999F-E6DFADE2CC15-150x150.jpeg
+                    [weekDayList] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 62
+                                    [dayIndex] => 1
+                                    [startTime] => 09:00:00
+                                    [endTime] => 19:00:00
+                                    [timeOutList] => Array
+                                        (
+                                        )
+
+                                    [periodList] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [id] => 62
+                                                    [startTime] => 09:00:00
+                                                    [endTime] => 19:00:00
+                                                    [locationId] => 
+                                                    [periodServiceList] => Array
+                                                        (
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                            [1] => Array
+                                (
+                                    [id] => 63
+                                    [dayIndex] => 2
+                                    [startTime] => 09:00:00
+                                    [endTime] => 19:00:00
+                                    [timeOutList] => Array
+                                        (
+                                        )
+
+                                    [periodList] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [id] => 63
+                                                    [startTime] => 09:00:00
+                                                    [endTime] => 19:00:00
+                                                    [locationId] => 
+                                                    [periodServiceList] => Array
+                                                        (
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                            [2] => Array
+                                (
+                                    [id] => 64
+                                    [dayIndex] => 3
+                                    [startTime] => 09:00:00
+                                    [endTime] => 19:00:00
+                                    [timeOutList] => Array
+                                        (
+                                        )
+
+                                    [periodList] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [id] => 64
+                                                    [startTime] => 09:00:00
+                                                    [endTime] => 19:00:00
+                                                    [locationId] => 
+                                                    [periodServiceList] => Array
+                                                        (
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                            [3] => Array
+                                (
+                                    [id] => 65
+                                    [dayIndex] => 4
+                                    [startTime] => 09:00:00
+                                    [endTime] => 19:00:00
+                                    [timeOutList] => Array
+                                        (
+                                        )
+
+                                    [periodList] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [id] => 65
+                                                    [startTime] => 09:00:00
+                                                    [endTime] => 19:00:00
+                                                    [locationId] => 
+                                                    [periodServiceList] => Array
+                                                        (
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                            [4] => Array
+                                (
+                                    [id] => 66
+                                    [dayIndex] => 5
+                                    [startTime] => 09:00:00
+                                    [endTime] => 19:00:00
+                                    [timeOutList] => Array
+                                        (
+                                        )
+
+                                    [periodList] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [id] => 66
+                                                    [startTime] => 09:00:00
+                                                    [endTime] => 19:00:00
+                                                    [locationId] => 
+                                                    [periodServiceList] => Array
+                                                        (
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                    [serviceList] => Array
+                        (
+                        )
+
+                    [dayOffList] => Array
+                        (
+                        )
+
+                    [specialDayList] => Array
+                        (
+                        )
+
+                    [locationId] => 7
+                    [googleCalendar] => 
+                    [outlookCalendar] => 
+                )
+
+            [service] => Array
+                (
+                    [id] => 9
+                    [name] => Маникюр 
+                    [description] => 
+                    [color] => #1788FB
+                    [price] => 300
+                    [pictureFullPath] => https://xn--b1afah7bd.site/3/wp-content/uploads/2021/01/293FE696-1567-4EB9-9C6F-AD5C4D6C03ED.jpeg
+                    [pictureThumbPath] => https://xn--b1afah7bd.site/3/wp-content/uploads/2021/01/293FE696-1567-4EB9-9C6F-AD5C4D6C03ED-150x150.jpeg
+                    [extras] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 2
+                                    [name] => Гель лак 
+                                    [description] => 
+                                    [price] => 250
+                                    [maxQuantity] => 1
+                                    [position] => 1
+                                    [duration] => 1800
+                                    [serviceId] => 
+                                    [aggregatedPrice] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [id] => 4
+                                    [name] => Аэрография 
+                                    [description] => 
+                                    [price] => 200
+                                    [maxQuantity] => 1
+                                    [position] => 2
+                                    [duration] => 1800
+                                    [serviceId] => 
+                                    [aggregatedPrice] => 
+                                )
+
+                            [2] => Array
+                                (
+                                    [id] => 7
+                                    [name] => Френч
+                                    [description] => 
+                                    [price] => 100
+                                    [maxQuantity] => 1
+                                    [position] => 3
+                                    [duration] => 1800
+                                    [serviceId] => 
+                                    [aggregatedPrice] => 
+                                )
+
+                            [3] => Array
+                                (
+                                    [id] => 10
+                                    [name] => Втирка
+                                    [description] => 
+                                    [price] => 150
+                                    [maxQuantity] => 1
+                                    [position] => 4
+                                    [duration] => 7200
+                                    [serviceId] => 
+                                    [aggregatedPrice] => 
+                                )
+
+                        )
+
+                    [coupons] => Array
+                        (
+                        )
+
+                    [position] => 
+                    [settings] => {"payments":{"onSite":true,"payPal":{"enabled":false},"stripe":{"enabled":false}},"zoom":{"enabled":false},"general":{"minimumTimeRequirementPriorToCanceling":null,"redirectUrlAfterAppointment":null,"defaultAppointmentStatus":null,"numberOfDaysAvailableForBooking":0,"minimumTimeRequirementPriorToBooking":null}}
+                    [minCapacity] => 1
+                    [maxCapacity] => 1
+                    [duration] => 3600
+                    [timeBefore] => 
+                    [timeAfter] => 
+                    [bringingAnyone] => 1
+                    [show] => 
+                    [aggregatedPrice] => 1
+                    [status] => visible
+                    [categoryId] => 3
+                    [category] => 
+                    [priority] => Array
+                        (
+                        )
+
+                    [gallery] => Array
+                        (
+                        )
+
+                    [recurringCycle] => 
+                    [recurringSub] => 
+                    [recurringPayment] => 0
+                )
+
+            [location] => Array
+                (
+                    [id] => 7
+                    [status] => visible
+                    [name] => Фонтанж
+                    [description] => 
+                    [address] => Пишоновская улица, 20/1, Одесса, Одесская область, Украина
+                    [phone] => 
+                    [latitude] => 46.486026
+                    [longitude] => 30.714836
+                    [pictureFullPath] => https://xn--b1afah7bd.site/3/wp-content/uploads/2021/02/881260E1-522F-4471-999F-E6DFADE2CC15.jpeg
+                    [pictureThumbPath] => https://xn--b1afah7bd.site/3/wp-content/uploads/2021/02/881260E1-522F-4471-999F-E6DFADE2CC15-150x150.jpeg
+                    [pin] => 
+                )
+
+            [googleCalendarEventId] => 
+            [outlookCalendarEventId] => 
+            [zoomMeeting] => 
+            [bookingStart] => 2021-03-01 09:00:00
+            [bookingEnd] => 2021-03-01 10:00:00
+            [type] => appointment
+            [isRescheduled] => 
+        )
+
+    [bookings] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 36
+                    [customerId] => 24
+                    [customer] => Array
+                        (
+                            [id] => 24
+                            [firstName] => Виктория
+                            [lastName] => admin
+                            [birthday] => 
+                            [email] => imaround70@gmail.com
+                            [phone] => 
+                            [type] => customer
+                            [status] => visible
+                            [note] => 
+                            [zoomUserId] => 
+                            [countryPhoneIso] => 
+                            [externalId] => 1
+                            [pictureFullPath] => 
+                            [pictureThumbPath] => 
+                            [gender] => 
+                        )
+
+                    [status] => approved
+                    [extras] => Array
+                        (
+                        )
+
+                    [couponId] => 
+                    [price] => 300
+                    [coupon] => 
+                    [customFields] => 
+                    [info] => {"firstName":"\u0412\u0438\u043a\u0442\u043e\u0440\u0438\u044f","lastName":"admin","phone":"+38022222222222222222222222222222"}
+                    [appointmentId] => 22
+                    [persons] => 1
+                    [token] => 31aaee18dd
+                    [payments] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 36
+                                    [customerBookingId] => 36
+                                    [packageCustomerId] => 
+                                    [amount] => 0
+                                    [gateway] => onSite
+                                    [gatewayTitle] => 
+                                    [dateTime] => 2021-03-01 09:00:00
+                                    [status] => pending
+                                    [data] => 
+                                )
+
+                        )
+
+                    [utcOffset] => 
+                    [aggregatedPrice] => 1
+                    [isChangedStatus] => 1
+                    [packageCustomerService] => 
+                    [cancelUrl] => https://xn--b1afah7bd.site/3/wp-admin/admin-ajax.php?action=wpamelia_api&call=/bookings/cancel/36&token=31aaee18dd&type=appointment
+                    [customerPanelUrl] => https://xn--b1afah7bd.site/3/%d0%ba%d0%b0%d0%b1%d0%b8%d0%bd%d0%b5%d1%82-%d0%bf%d0%be%d0%bb%d1%8c%d0%b7%d0%be%d0%b2%d0%b0%d1%82%d0%b5%d0%bb%d1%8f?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wveG4tLWIxYWZhaDdiZC5zaXRlXC8zIiwiaWF0IjoxNjE0NDIyNzQwLCJlbWFpbCI6ImltYXJvdW5kNzBAZ21haWwuY29tIiwid3AiOjQsImV4cCI6MTYxNzAxNDc0MH0.KVYLUk5LOU-nq22VheGBIcQKictD9xon4CFP5dO0EIk
+                )
+
+        )
+
+)
+
+

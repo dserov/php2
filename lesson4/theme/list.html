@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Log viewer</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>А не почитать ли логов на досуге?</h1>
+    <p>Если не хочется нажимать кнопку в конце страницы для подгрузки новых логов, установите чек-бокс:
+        <label>
+            <input type="checkbox" id="autoload-logs"> автозагрузка логов
+        </label>
+    </p>
+    <div id="log-container" class="log-container">
+        {% include 'log_details.html' %}
+    </div>
+    <button class="get-more-logs">Надо еще логов!</button>
+    <div class="scrollCheck"></div>
+    <script src="js/main.js"></script>
+</body>
+</html>

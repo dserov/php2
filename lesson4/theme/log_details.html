@@ -1,0 +1,11 @@
+{% for row in rows %}
+<div class="log-details">
+    <img class="log-details__image" src="https://picsum.photos/100/50?random={{ random() }}" alt="">
+    <div class="log-details__body">
+        <div class="log-details__id">{{row.id}}</div>
+        <div class="log-details__date">{{row.date}}</div>
+        <div class="log-details__login">{{row.AdminLogin}}</div>
+        <div class="log-details__message">{{row.Message}}</div>
+    </div>
+</div>
+{% endfor%}
