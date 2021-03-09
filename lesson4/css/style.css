@@ -1,0 +1,11 @@
+.log-details {
+    display: flex;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #ccc;
+    border-radius: 5px;
+}
+
+.log-details__body {
+    margin-left: 20px;
+}
